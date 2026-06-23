@@ -42,7 +42,7 @@ export default function Hero() {
           className="shrink-0"
         >
           <Image
-            src="/images/headshot.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/headshot.png`}
             alt="Tejas Patnaik"
             width={240}
             height={234}

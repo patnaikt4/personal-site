@@ -16,7 +16,10 @@ export default function Home() {
           content="Personal website of Tejas Patnaik — Harvard CS & Statistics, software developer."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`}
+        />
       </Head>
       <Layout>
         <Hero />
