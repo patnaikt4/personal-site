@@ -1,22 +1,27 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/0mxuov8iuww-u.js"
+    "static/chunks/2k6mgq46pjmh-.js"
   ],
   "/404": [
-    "static/chunks/1pzdv87vve_62.js"
+    "static/chunks/209fkxx0fl090.js"
   ],
   "/_error": [
-    "static/chunks/16pn9kp8pu88y.js"
+    "static/chunks/0mzl4hb191zpa.js"
   ],
   "/blog": [
-    "static/chunks/00kkv4ih3aamg.js"
+    "static/chunks/2l_azc61vrtv3.js"
   ],
   "/blog/[slug]": [
-    "static/chunks/2oj8nt2tza7n5.js"
+    "static/chunks/3zjjpl_d_99qm.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/personal-site//_next/:path+",
+        "destination": "/personal-site/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
